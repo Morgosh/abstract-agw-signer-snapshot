@@ -1,0 +1,7 @@
+*.checkpoint.jsonl
+*.state.json
+*.tmp
+reproduced.csv
+reproduced.metadata.json
+new-snapshot.csv
+new-snapshot.metadata.json

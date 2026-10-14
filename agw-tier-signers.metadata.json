@@ -1,0 +1,2079 @@
+{
+  "chainId": 2741,
+  "blockTag": "0x5387708",
+  "blockNumber": 87586568,
+  "blockHash": "0xc6cd8034c80d92651c0ae9a53b2255c7bb9885fa400cb636257028a6dabd79c1",
+  "blockTimestamp": "2026-10-14T08:40:30.000Z",
+  "startedAt": "2026-10-14T08:43:08.759Z",
+  "inputSha256": "628e35920b8d7544e1264635eafa2c9b78d1c9f38e70c2957795e280a395845d",
+  "selectionHash": "ce7b94fb7ec7051caf693b6d72995ad2cc2ac4877915e54b7a131f3c59dc8b83",
+  "inputCount": 59122,
+  "completedAt": "2026-10-14T08:47:21.546Z",
+  "rpc": "https://api.mainnet.abs.xyz",
+  "registry": "0xd5e3efda6bb5ab545cc2358796e96d9033496dda",
+  "multicall": "0xca11bde05977b3631167028862be2a173976ca11",
+  "csvSha256": "bd8b28cc6232363c4fc8058dee1b01918d34a8a3a8a33f88d8a59bc1f9133a4e",
+  "rows": 59122,
+  "statuses": {
+    "ok": 58713,
+    "not_registered_agw": 408,
+    "owner_call_failed": 1
+  },
+  "rowsWithTier": 58655,
+  "rowsWithoutTier": 467,
+  "walletsWithMultipleK1Owners": 6,
+  "distinctSavedSigners": 58713,
+  "selection": "First address returned by k1ListOwners() at the recorded block. Other owner addresses are not retained.",
+  "sourceManifestVersion": "2fee1ea816cdd396e8023e5e0a1d03f66e3c2abe01d441504aa26ffbdfda8ef2",
+  "blankTierMeaning": "The mint allowlist has no tier for this address (friends-and-family-only eligibility).",
+  "blankSignerMeaning": "No confirmed AGW K1 signer was found; consult exceptions. Never assumed equal to the input address.",
+  "exceptions": [
+    {
+      "agwAddress": "0x006fd9f7547c8b7320ec83eb253f09a69cdd8452",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x009a950ac242a003d0eb6e2fd1512e07a744bd3d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x00d03f805fa52aca5c0387db663ff2ee530a043c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x01a18b4adbc7a0e19fcfbdf63e85ec6f3c9ce9e7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x01da885c11a9579dea551023571588d5fb74e949",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x038b97d549bf4d3cfa4e116a7f6ed257249001c5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x03e20efd5732e010b7a7051896131f3aa5bf3a75",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x047183600867257fb7c411e0140ba0b214be5a39",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x048e8d6d6268efb326dd4cf638f6615fb989c802",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0494b19e240ee7b3c80fe28811cd7521754150a7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x04cba99bf19958470d03be77fd1936c1ac73784d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0503ed50534614193fcd085c5de01728a4824822",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0511468bf7e4621f8186585977754f8fb456dfc1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x064f5692b711fe69cc10ef3848ba659b8b6dcefa",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0680cc6a4d7f7b9a3c3f584ef2d5df04d6931c32",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0800833a3706db6fbbd846d5d1b9370a79af8097",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x081531e08ee6e6c6c61e44d5cdb22942d9aa2f5e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0848f4c23c5022fcf47869032e4148b1d16f3d20",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x086bc742bdf58b60df5e4e5f3f3145c4f5d20bab",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x08c0794d96bb0f0a2b63c6dfe9d9d14bda375fe3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x098cf4937487d8d2ac9391039dd67332abc2cdeb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0b8be030a1d151b1fa722a794eeab43a45b1e002",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0bb521bd6b2a0eb81a0750e0d78c50917323d958",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0bd57cbe73f8a747ae66f9d6c27144d48ab0069e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0c226743281b53360ecbd60019c3948d5734149c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0c6f0e3250b334ca867c02f0aa4cde95f02471d1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0c708fb3558f80b040634853e43013d12206d932",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0d5d436b1f7f194f4a2f1374efe9764c3e62534e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0db0960e1e358875c5a39a2422425a8513dd77ae",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0f10fe16ee33acdc46bd16ac56a67ee58d699999",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x0ff85b0aafefe6e7d271854fa736658617b64282",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x119ded51e14f6cd1da2cf58f0b64ed3549463d5b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x11fe4fcf3bef22bd2a063095dca65882f25aab5f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x13f3a5954b43c324b890ebf53260f09fe3aaf965",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x185d66ecc1ab73a472b1540815a3dca08c3eb4eb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x18beceb3674f20ee3f75c03ef06542c8c882d088",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x18f771e9057d8c4a15c3e5e7032087fb9632d36a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1916080e091e530071cb8348a715db33f2e9c6fb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1a01fd3f776daee6a72d19b45cd90f9fffe09d9b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1c932e484186cb6c86633ad1627cfab28c807b88",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1ce997cab07288fb4d8130fff7d7ad3a838533b6",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1e16fa68e50f1b622b43c73a360170135a20b462",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1f2a12f498816ce1c1a1dd74e372bed57710ac5d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1f3f1e8ee2b13f7a12e6044d15baca8ce0d17e5d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1f93792bccd230f8e5c815e0a43d8d6fb669357d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1fdbffd0d8e237e64e68a904c2a6f447a1ad5c90",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1fefd2d64af4d97e5f2de6f96237e6afe29e25f4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x1ff1f154cb6659bfd61558bdf2f3d4882e22f995",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x203e4c3c6559e8947e29feddfca4f12c62a6f3c1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x20e49300e58ec7e7ff9c503934b78553df509319",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2171430b0a3df11bd6c1b73e61eafc14138aaba2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x21eb6b7a61eb03e4e49d5361a6048c46d68a8e95",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x21ecb6d4c8205a6cc8e7ec2ec2d84870d85847df",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x23e603e2be1d5525c26a87d79815d97a81046dca",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x241c00c5324843e3dc592b33f4b1955c609fb0bd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2488d3f3c859d97a868395fee9e87eebacac8f56",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x25ab16a274719c43ac68baf56c0f100f5a51839f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x25b198b9740abdcc2be0acec3e2accf92c7b21f4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x25d61994536be3c6660e6954c1d2d7a9cd28a1b7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2658291b437a5674ca48270ea5ceed204add6876",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x27222fe920da1ea66499b6956cc9dd99042d44fb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x27e113bff83865961fef0ad455a2d96e113203eb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x282fdfbdf1a3d3073574f87855f5a2c39217b683",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x285462151d083c454afff058141f8ad69e7f9d29",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x28bb187baf61f8dc679c2cc2129d04418539e729",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x29d520fe46f42db6abe034fec7185b46b8d6fc2f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x29e3f8473d50a0480ee948e2c9f36e1e82a2cc28",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2a024a476e821e49bae3b550dc713e20d1a519e9",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2a1f94bb2abb6c49549cba6b53ce69042e3d8205",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2a4894bbc60422bf4e8e3ee20ae66b1b1975f7fe",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2aa946fd933a41fbc8bb5313b5e0e12436d75a4b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2bd8d2184a3a856054e321919bb8f4ea858db7ca",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2c419c8b207b10b39673482d83caa3e11f3604c5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2d5cc6920adf63647e666b8e9ec139f08a990c7a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2e23efb0e86ac8b7f2275bc21936dc9e7c080729",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2e6585dc101936c647740ce1b57d32b685b3ba59",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2f45f4c22bdf9dd9a736cbf02bb632ba726740b5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2faf2b1940df7cee53b393542aa625c456503def",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x2ff57070bf1e39bcb946a4dfe6fe0d7cf33b82c4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x30039d5025c5fa9d0a62ac1879a2bb0c8008e227",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x30d167662ceffb8708fc82e375d0785df78d02ba",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3156132953f788f66b720f07a9e7870cbfcf7fbb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x31d5e41636c2331d8be9ea9c4393a0ff4e597b6c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x32860ac5905fe28c0989148d5c68d4b0cfa1ee78",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x328a24af99926b398fb5d9875d2c76e9a4ddbb0d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x331164ccc0e0daee2a92a347b51fcf48016fbd7c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x33a49af30730fc0416a2a381f95ea7a37e4a54ad",
+      "Tier": "Gold I",
+      "reason": "owner_call_failed"
+    },
+    {
+      "agwAddress": "0x34007d488aa30c57b82e5e269d41d8cc684b46bb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x34045c937742c8ad6222a10eb21c7cfff8bf870e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x340c4cdb74ea6ccf98592b9e63ee80f814673ad7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x341877cba9f73776a7c55d12bdf88a4fc9bf8429",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3424cd7d170949636c300e62674a3dfb7706fc35",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x35cc53a869771db4258947764277651da933d081",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x36662542a79e34730dadb416928b33ab8ac881e3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x36cb5709de9580d677a3c451c4ce9678b2e20e28",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x36cfa688c921dd47f8fd7b9653b25d182cc6e129",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x36fa3e52d58a7401be46353f50667fbf931e4f42",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x378f3f9687d3b3fddfe151aa8a09a7ff2e540749",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x387865a40d5470760675f6e032a137d82f55bf03",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x391018a054c9c55d534a153be308711ac4b6c116",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3a1561411484a47c2378857654cc6cf810ef7bc3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3b1e0dbf7d2be3e3ca063abf122a57b3602faebc",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3c2c0ef34184d92122abf042b70dbc1cc813c074",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3d3951ec9463fba87973d6cc7d2a813fe9fc86ff",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3de38f491b6d362c4901b00bb17948d02ddfec6b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3e5e0eff90243a8fc9cfc345311fc138cd230734",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3eee42ba7d7e613ca45956d63bc4c6fcd0981fb4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3f0e6f3a0380b5321a05cc941de37755e3886540",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3f3b742453d3287d3dc73949479c9de09d2274ec",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3f3fdd1ee0653c12effe705bffc2c49a640c68dc",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3f52ddd7172c9ed92cb21b708926ddb730d9e730",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3f9343a5b2d1ccad06a07219b7d74e3cbff1b8cb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3fb8a4cc51dad987fcfca756a3ac3ab24619dc48",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x3ff1513ee38d724bf48b8183a9fa9a53bc5c532d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4129dd2869fa1190642fb8208a7764b208f976c3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4156131b61fbfdbfaf82b3c9d6ac84977aec6311",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x41dd1c6338e5b3cdf9dc69e20dad9834ae36a6d3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x41f02aba521fc29e47e5d06d1d18c2240ed5cf6f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x42cbd461badfa828d64bb2684f49289a62248d4a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x42d6524624a4efb47f61bf69b320f3d39160bee4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x433f8e076d5d49b10cdcac6eafc3cc2e6f73db2e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x43639f786efdb2cecdf5161ef50e2139dcabbc5e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x44e08b0440dbb7c6512939274d675e22f8a53fe3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x45a4ec66624a1f41a60c10720c44a807279f11af",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x45e712580ff46ab8f3a7e59f368eb2423600937a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x466963b5d0a433dd2a7868c46d89636f2ce15edd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x46b82704baf2e08ec2ffe72f32b6f92772bea15d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x475a0f80a54c1bafedcf59237e18c5623aa0f786",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x47a3a630519054275600050c98132e6be13f5f76",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4891409eb62d6ac0a7f51eaac45f1e4a232eb773",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x48af586510f7937423f8b4e8093bac3becca3226",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x492722046b34da71a773be74bb5ccb943c22b46b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x494dd03a17230797a30e7250855c715dbf8d926f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x49ea9805a8b3d4dfb79693dc5618f67d6a7a8c9b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4a7083e58d3f36b7c3f4682ce8b7eadaefcf54b7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4a84e7b41268cea744c0f4bb48f042ef6f12686b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4ae985650f214e559b6b3d0d103770b3acce0e1a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4bfa4324dedd5f721600e0e796edd9c810d1533e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4c98191c3c90155e2b937329ae724d9e9f7df515",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4cc39847c4a87a95667debbc5f68a67b5e72679e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4d8106e28243662b253fb2a775ff927563bd1e66",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4e2380d8a96e1f370c258e002b15405fe94ee32b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4f0ecedcd73da0315134741d9d3830b08fe32e95",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x4fba4b643d25a1db2d81a2b326212ed350dcecdc",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x50d922255318e03f803ae1dd85755e17df2afec8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x52ae9facb564c0fdcdda0ce8d8a0d75c4f7b3362",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x531a7491cbf46433fa432ec545921220a448c61c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x53a2f682b8450fdd3b6b10b36b8918b415c6b499",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x58fc85a99425d71edb527bcbb3593f4de0699766",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5a61288d03e9911462a5b27360454b9dedd0dda5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5c04911ba3a457de6fa0357b339220e4e034e8f7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5c43b30e26bb531d32dbcc1af1c6f71b2e752304",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5c5b538fb2bb462b96a98c15a68e8b0fb162f50d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5d6db4626a1be195524cb0955eaf4b4fb8e82ca2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5ea4c88164060d3e46251d6d57b521d8eb1d2495",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5ec479564a069af00bb4af1b7f6bbd5cbf703e9b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5f2ab20b37bf8c54dd0c92824ddda61fc1c2338e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5f3fdcb85129604a69bec90e0ccc59e747ad3399",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5f42ba2a020d80715ca3d675ba2d6de6382f8091",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x5fb33d75a1cfcdc922e736c06e01c1505b4643db",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x607332da5c1f1db44307c2a53de094539e5f637c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6100049d85a9b2cdb3c12048cd1d06221c9f96fd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x61aa1430138824abd0c1f0878a3da2ba18071e8c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x629a768fa53168c1601832d410d667ff11f7df69",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x634f942978282013485a0768671551f064f66dcd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x638f8e3a5301be6e6f8fb0d251f620411c0c243d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x64821e0db44f7c10f30d51dde4df68066f4c3814",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x648a58121dc0de4436837dc585ded4fa5fba6d3e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x64944c307fd98134bca50c8ed88d3831a8b3131a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6559128a83b9c93281a53038b8810db349d61527",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x664936a6aa22170221495f14450b891e7267ad0c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x676b4eb08867b83d3b026183483c47823aa71ed9",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x68d5591cd17502386728bbc5d0dcfc40b5d7aca2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6937dce7a6702fce2ee1f2613fda5e7d75a878dd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6a81277b5f43a58c3acf6f9a5c255ed8b1a0e5a1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6aff3891b6a4319fe63991e20b1fe4094655d018",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6b71cdf81da8875826444fab082031927786713d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6bd1d69bcb0247fd6093c90f000844623242eabf",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6c0960af5fa60bc5327546a67cf173beeedbc5f7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6c4021a219edf0ddc8e0abb13cc807a9713aaf63",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6cb84e31543b5efad563d34d52d81c67901d7a4c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6e52da52dae157b42162abb90af7b987631fc5e1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x6fa9b344e1c241977157db8f65ee6369c0472781",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x70382af248c51b7917756f7a3994eea68873901b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7117e9cde654eae437e48e649e80b9f8c9dac163",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x716c474b36f8dda575f2f62507edc7499d5c00cd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x71f3f14582167d8818cba01c55f91f71ca326a54",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x734ebece6d698a50cf90ac9bf15e3f16dc34a204",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x738c9f6618191deb17078281469ded0524072119",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x73da1af06106a7f3ac717ef0fd637177175d98b7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x742257a37797b328f14faead2a4dc7a7b95f9087",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x74eacae0be752f9842c13fa34d8093c2009f9ad0",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x75311b57626c7c204dbb3b84679dc0182c7a4ca1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x756383ef42d944626e19d72e0be58ea01fed91bb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7676e0c524c7504cf9c51b59770721db9bb60adc",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7738797825902889925ec60de38d20cd01250f64",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x775b7f255f0e2cc1d704da0d878c16e26680496e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x785717edc0c4a0975ab58be32e2391ede794af7f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x78d3d4ed8386e51b60c58ae916302d96e5c0f845",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x798dce5deeb6898c488b78274b67a691f72cd0a6",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x798e5cb74c8b5510e35588db5b509a9efbaf7d15",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x79be06d528d9cd624e1f89c606665de2c7bdce23",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7a53801655d9a7ac28c37c536f069b2ca71979c1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7a53e5f8b171220f60ece569c77cb236fdf35a15",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7a9511307b02af0f7fed6375152dc56dddec9eb5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7a9e205770b9f5a46c12303ba9ddd9523153ed83",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7b2c1b566a5842bc5934c3bb20bf191286b18168",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7cc70307d4830694dc59d4b07e85ff5de8664cf4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7e1404d8d38347d62424aab978703026c3c706ad",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7e7d3b0b3103234c222365e30310b705144272dd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7f6d8ad1ad0de4d6769fb39d0555742bf9d9f838",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x7ff7602507df37c0b7a2981ca3278e9142a7f14a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8005bd641db25ae41f486151c8603a1d38097518",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x80bfb857770a802f7ef375921ad5e83c76214a2d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x81643b0624e2ebf6d29d4282eaa027c723767d20",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x81cb7c591344866aa8ad38d59f7b59059bc523ae",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x82d685057b3078618b541c3dee62fbfc71b4859e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x83262fb83edfca88489ca9cddf61f5c94e73ea96",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x833da003397644a1ff20f3d83a94ffcb5e59b88a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8346d0dbdbfa393fde4652194b3f8715cc51f665",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x834dd9c7daf3b1873d2683e91b6dd6d915e909d7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x838e4867564db73fd139fc5a61bffe2bbec9c8a7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x839194d7ff2e31116f337db48bbde632b9f8e269",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8588ef7c34939d93e8e14fee7a3c407fe1e4489a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8790248a1d116e74e2ba36ada3f296f82aca5a4f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x885a6f5153762e1409d447632bb974392cee58d9",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8a341c72101002429c2dbbda35888ffab27397ee",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8af21cc2afef32e7ab93b142e85a5b475bf1ff1b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8af6d71f89d78a1fc1b4c8295fc499f83fb88189",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8b44b14891da20dee9e64cbbce82dcde16826522",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8b738ca6966015fe69ebcb3344093bbcb609cdcf",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8bb9b5d417a7fff837c501ff87491047e1598104",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8bf79babf23256874bd04621d0ad2934dcddb443",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8bfc33a2b04d0cd78247e9236056f180c1b7f4f9",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8e1fdf5f1ba3f86d77b4dc5b8125169ede8eeabd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8e2ad92d1986c37d4cc9618c13ae9950f4d3192b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8e3909f28339d49ce57b6c1a7d46255f9c8746f1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8e4de134d9146d500fa03ce0f0db399651308e58",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8f167443ea46906647c4f8d12c1f2417b0fb0836",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8f2df56bcecb03e9118a8c78b454e7ecf1592872",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x8f5105bb435a60b69f1a51bc97d726fe2a661675",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x902c63175ec89bbd79e3d627959202552333baf9",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x912465725ec780b378f21644f1f90c8d4b06d47e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x91fefe5086850f2148049dbeaf8dc9ee2adf69bb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9333f798981f01b179974c3796802f50816b1dd8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x94cecf03d2cac4771c7d66a459d462500e01cf75",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x96308e527c89470286f60560ad199cc9c11e3f77",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x96463e29607f0f400dec7905b375f07ac7e24cb7",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x97fb3f63b9ff8089479b775311dcb75a2b8f8202",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x98060cc2ce3b58bd86379276e325a3a7de4b3e92",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9831d01e6e6d0d28438da5fe05346d1840156a05",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x99ce07e50047ef9d4ed35d38cbb25b50d2d4a78e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9a9c910c339b4d33c8acb20aa05bf6a81d100f41",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9ac49d2ff6d3cafb8811d3de84cfe065b55cdfff",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9b07c55a936ec55224980c1e35928d83a40f18de",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9b51f735d58d6ffeaaec31ed5b5d0ad881db6204",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9c0c1c4c50657e8f5e04c0bfb6d653b724e83048",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9d1764c59a5dd1c7316f0170369e079f96b0e63e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0x9e8d7a2238e0287af0f3fb154a937b30dcd16236",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa0dcf4f2193d37bf7ad15860d824347f7b06a28f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa1f433aee83dc2bf3c2727ee6a9c33a5f8157f98",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa3a717b22e0d8cb77d1705122dab49009a4fa94b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa48a76e4e0d4c2080aa789831e3cefe3a8452620",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa504f4a0e2d9bce4f4dc1c1b2feff6a1efd8de2d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa50c61b63002e78c39ef7480555b6fe6e9eb3c4d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa5698d6971c98d1dcdd1694570966869efa72dd8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa5a53e5f629c09d4cb415f03174bf50e7412455c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa5dce742f3775059d9406342d2ecbb0ff8e3a3c2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa6164811a52caedba1ca9974ac5b425722b9b042",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa65159c939fbed795164bb40f7507d9e5d54ff22",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa6c6ce27ea58a45a5d6b13fd132964e3dab15dad",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa745c0e40cda363920db9b8475478f4a6a6d9e86",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa76c8012fed62fd3f9d4cbf0c8e0e3893e33790a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa8910c8e7a8174227d48a41eba212c56730a7b64",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa8aad55c115a9213d790e11ad90a60f3540fee72",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xa8d67e13ac97cba918decdcd78f71fca8ab2d1a8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xaaf08a619e1345a77ce2f113cb3114e7a84217cb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xaaf7bf5f1d3520f8ebe7b1a87f20c34925ea7ffe",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xab533851a63c9538f4ef1f0c9ce93977908b414f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xab8ea35d2e200bf9089b7e9bee47568fdb211012",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xac01bb8961c3fbb17db619f1a9932d9b60c693d8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xadec6fffbfff4f682d253ccc4eb495e11dae9e33",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xae5679c84371d53c7e2bb2870f9d00e92d506e0c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xaf68f720d7e51b88a76ec35aab2b1694f8f0892a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb0646bd7de0daf9f005faede85a89fae8dc6f936",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb09347507c888147aec82dc9ca0d6cf115ca253d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb0ff65f0fb25c28c6b86fb3c69c40de33de4545f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb117404c6c97fbc448f200e7298f9b4f7bb01432",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb166f5fbcc8f315ee8a5c029879b2605432a23e2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb2169c8f12b812c9d69a2086cbcb3030196dc58a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb2c943286fc21db5cad9cec6239b0bc97566dc6c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb2d03a61ddb71e31a044c6d92c3158fcd04328d2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb31c067a3610e666c7ab2f82510d1f497bafaafd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb34206b2840137c44c853b2a827565b7aad51ba2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb39a6b4cb933aab3c30da765acf26c4c00a4bf11",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb3a267eedfaef313f3d4d85c092a3677f5fa3936",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb45df7798a64dc9877d7a1903f43ff68ab02db39",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb6eeaf31db9e270dbd4dd96aca3167a02907af81",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb6ff50f33def4daae4d745611c90abd4e3a28a2c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb770c020451853e110a9840005342e013b97c816",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb7bc4b2055cecdec71b9eeb17a58f637ec1adbc3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb7caa87b454ba6b553f211c5e20fe25bc5aa377c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb7fc617da6546febfc31dfc8283b8588e192b3ec",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb817b0137bb1a838aebcc63a231d152c6cb03b41",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb89e723c8bffc86409896c79fd8d70ab12ab2f91",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xb978fa839074d18953a32f4c46edaeb87c3a1d9b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xba416ec3c03334a93369aa18f875684e810c2643",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xbc87ca75ee832c4d6894790958ba8c9d3b48beb6",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xbc8877b5f13fb38bae0d795eb465fc3d995c3522",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xbd7badb28938c76f6071328f9d3d1b97b1ff2817",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xbe4ebc2e07225c7a94a8b959d7151a901cbac5ab",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xbea53150ba97f4a0ed0aa50e0e8c97453cf8cd93",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc017a841c76ac317be3773df84faf770d5097806",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc090717f6639bd19d32febc5f04458e7ed69833c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc0b601fb716470836d0bf6e5446b96a112f764eb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc0ee8c18f0709d9d651fe90d30d0392d443f2459",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc16d068b99811ca70194de1ab2cf271e62e82fb0",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc182328a9e6d424d37af44f8043196f8f6877230",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc30f50fd74259b9ef1edb705244e737f5a39d3ab",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc32aa9007cdd161dcdea219c6500b6dd5db6f689",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc35dd5c1dc3cbf6f6ac09fe7453f59b2e77fb0be",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc3a538864600c21fd57eb45cdaca0f1665dccd8f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc4884873ca51a309fac8f308a44fca4d5df6721a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc548d24d47ec53b5c97bb0c8919189f1fa536f7b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc555c76e7e552791e9ee61dc2389239e968db6a5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc573f439ff398abe38e4251e72b384251e46f1af",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc5765e792e6a9db2a6c134cf9a048f8c538de464",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc5a4c5ac7347c63b3e9c687c53033f555bf05db1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc63edb0d605bf574bd39f14c388a5ebd662efffb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc72f40a397453051349f73cf2e2a04fac06e37a3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc7c57ffaea2a6df7e1e82007925fb0c36daa49b5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc80ff25e58553b6d3d11bbf3d1e3a65a12bc2692",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc8700474a7f870509ac6820e05be1d457c15808b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc891d2747a54c6231e1c10973ece99e6e7f2afd3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc8b0d32bc09fb11c12c82582825c1e6b624822b8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xc9d38bcd6f9363e7d59a910935c541b648b30f7f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xcbbca3182641eda0c171c5eb3d350b44cc69af74",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xcbc2146cf2699940f039dcd08ba619d0bd6d8339",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xccd2fbc5bf2227b914a1a6fc9c28e03a6ed003a0",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xce3c3fe1fd3cebd938d54555d233d6e8eb91a40a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xce8115142c4f1a6800efe097b7906c69391a4e0f",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xcee867a56ba6edc34af270329c58708799ca9e8b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xcf8fa8999b4f14ac42cd2be3eb7633bbac80c25e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xcf905c46ae9b6792a8c346076c3f497b287d0a08",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xcfa9c06678b3b15106796971c81298f27f864c4c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd0cf247f5c52c8721323a5c5fad9a00d5047e2ae",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd0fb7d929b5fbe4679321216bed89a3ddd986bc6",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd1f8893e8b4cf1d51e06a717acbbe2e085074d5d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd289bfd219546b74ebbfb1fc096d4c0f53c9004a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd2edde8b06602e1ada307d5c0c85fa9c778a704a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd3a0fbad655083279c1d49ff434d1782f7d5505d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd3c6e4583bcc33339d733cb35034362d134a6749",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd43a65c30e09d6222f900f1d8128212398a600c8",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd4da1243217199fb89a287a1c5decd6998d8cf28",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd6b5d0c67ea82a38a41b53ba4ed1ae73f0c673c3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd6d1ef5351c3830a03b3ff83325deffbe97317ef",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd6e902a226f460d66b63e2c10445d06510f629d3",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd74c9090889e13c058167a23aada5f04f8639de2",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd89b835e9064d5f623f720ba368232d3c0a42886",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd8d741dc89c1de3b2f314693752892255105c8aa",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd8f0c626cb626ebf5a8ec65342038c812f10b37b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd90d8c74545728cd8200c66084e36dc10afdca40",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd9789028472e65f3c43fd88390eb042f0254a854",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd9cad200b8e9435e138dc9ebdc87d595b565c41b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xd9cfb022584f06041c9db4756784d067a5c2f923",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xdb0f95806885c2e6b048d2ee62918fcd852c0fcb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xdca4ade18706260a4fd3cb445be3eadb23635273",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xdcec8c5d9c43d58dec7e47553ce8cc87744d14a5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xdd1ecae49312f5a2fef65d13327e92d32864fdee",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xdf92ae412d3e976453916760caffe3e0ec383028",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xdfcd1a398e81e13cdae25fbd400025d75d117245",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe0123335bde05195e0d78f79c9b2776493fa916c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe06ad0acb3956f98c9df77bd02cdfd4426b2208d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe0c52ad8b88f9d918839276883959052f1a95615",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe3c53c7d0ccb5ea35043b13af31f5854cffeb8aa",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe43410f402851923b94bba290c151e980ef60662",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe4edc2790f4034e1ae67a6fd7f55039bb2a295d4",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe6f7b0cd0728b8849f91e73ccf2dbc1da1dc120e",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe70042ae9ef673f26a7335456c51fd73e865f8eb",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe7a70ce4e73d23854841e0f06d6b30713c5a4d2d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xe8d0c9fc274599356e872ca90d2f6f5da844f9dd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xea292eb53f106b45ff11cae5d3170cb87f4886f6",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xea52b1bb93087147c8fa43443c18ad067f60d9c1",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xebdb4f871fff3add1afee782077b9359a8ce8060",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xedd1f30d69898e4cb710cfb47c6114d31e6fed06",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xee0201e07db325a5d732aeb9b9fba7b5b8e92c2a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xee0f10fbe5f082fe5d5c5df9e25c09daff5af736",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xefa220586f0333d5d47843ce82c2aebe863e9475",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf07b1deaa260b09217b6406dd1a3cb4246dd5c40",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf093baba18a4996596e83977af94003fe71eebfd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf1f0d3f9da9e95cd3ce28b731612e671d99d2907",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf37ce43e60f8ad5ef9901826588b20692f954265",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf53ed94f5fb975a5be7eb26a3fe6912057ff225a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf59e22e8d68e0804a9aed4253f43c1b2f2e64431",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf62050aa35b1d38d153d1f4ff1551b5848cf959d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf62bee105ec6f57c6b106d310ab1e8397811eecd",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf6796b357c55a8fb08b69c2c59b8a84c3f2e7cb5",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf8df233f94bc24c71572af8978fd7210e6283476",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xf9640fd522d2228ae90d148d656b49db922c6f37",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfa6c54de608c9a0a2c2a3220bb7e42b95d1b910b",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfad1e8ed39ce979bc5c2b02d2712da8b882d7b6a",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfbba6091a1f6b60b47a6ca15aa256debff1f1fff",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfc767d6aaac48139bed67fadd9732ce2550fc00d",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfcbf17200c64e860f6639aa12b525015d115f863",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfd539c7cea7ff6ca9ee270fc68d860f6b67aa3ba",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfd81b25fa540c460a1a958785a768f93702e4cde",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfddc64fde74a39d1697773b267ba21164df7ae29",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xfed37ad2f949b293831a2cdf11951b63ef7a3bab",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    },
+    {
+      "agwAddress": "0xff1e1d7e996f9c01b1b99f0d335d1e2d2b6a056c",
+      "Tier": "",
+      "reason": "not_registered_agw"
+    }
+  ],
+  "rpcRequestsThisRun": 303,
+  "rpcRetriesThisRun": 0
+}
